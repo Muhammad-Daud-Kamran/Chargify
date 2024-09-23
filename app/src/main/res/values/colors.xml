@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Background Colors -->
+    <color name="background_dark_mode">#0D0D0D</color>
+    <color name="background_space_grey">#1C1C1E</color>
+    <color name="background_dark_navy">#0A0A23</color>
+    <color name="background_light_mode">#F7F7F7</color>
+    <color name="background_light_grey">#E5E5E5</color>
+
+    <!-- Primary Colors (Charging Progress) -->
+    <color name="electric_green">#32FF7E</color>
+    <color name="neon_blue">#18A0FB</color>
+    <color name="bright_cyan">#00E0FF</color>
+
+    <!-- Accent Colors (Buttons, Icons, Animations) -->
+    <color name="lime_yellow">#F9F871</color>
+    <color name="fiery_orange">#FF8F00</color>
+    <color name="vibrant_purple">#8F00FF</color>
+
+    <!-- Progress Colors (Charging Animation Gradient) -->
+    <color name="progress_start_red">#FF1744</color>
+    <color name="progress_mid_orange">#FF5722</color>
+    <color name="progress_end_green">#00E676</color>
+
+    <!-- Text Colors -->
+    <color name="text_charcoal_grey">#333333</color>
+    <color name="text_soft_white">#F1F1F1</color>
+
+    <!-- Button Colors -->
+    <color name="button_charged_blue">#007BFF</color>
+    <color name="button_charged_neon_green">#32FF7E</color>
+    <color name="button_low_power_red">#FF5252</color>
+    <color name="button_low_power_deep_orange">#FF7043</color>
+
+    <!-- Gradient Ideas for Charging Progress -->
+    <!-- Gradient 1: Fiery Red -> Neon Yellow -> Electric Green -->
+    <color name="gradient_1_start_red">#FF5252</color>
+    <color name="gradient_1_mid_yellow">#F9F871</color>
+    <color name="gradient_1_end_green">#32FF7E</color>
+
+    <!-- Gradient 2: Bright Blue -> Cyan -> Lime Green -->
+    <color name="gradient_2_start_blue">#18A0FB</color>
+    <color name="gradient_2_mid_cyan">#00E0FF</color>
+    <color name="gradient_2_end_lime_green">#B8FF00</color>
+</resources>

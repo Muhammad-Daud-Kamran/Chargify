@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashactivity"
+    android:orientation="vertical"
+    android:background="@drawable/splash_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/splashlottie"
+            app:lottie_rawRes="@raw/splashlottieanim"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvchargify"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_condensed_bold_italic"
+            android:gravity="center"
+            android:text="@string/chargify"
+            android:textColor="@color/bright_cyan"
+            android:textSize="50sp"
+            android:layout_marginTop="18dp" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBarsplash"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:max="100"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/button_charged_neon_green"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncontinueonboard"
+        android:text="@string/splashcontinue"
+        android:textSize="22sp"
+        android:fontFamily="@font/roboto_condensed_bold_italic"
+        android:textColor="@color/text_charcoal_grey"
+        android:backgroundTint="@color/button_charged_neon_green"
+        android:layout_gravity="bottom|center"
+       android:visibility="gone"
+         />
+</LinearLayout>

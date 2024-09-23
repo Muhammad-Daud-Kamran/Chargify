@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chargify</string>
+    <string name="splashcontinue">Continue</string>
+    <string name="chargify">Chargify</string>
+    <string name="skip">skip</string>
+    <string name="back">back</string>
+    <string name="next">next</string>
+    <string name="get_started_with_chargify">Get Started with Chargify</string>
+    <string name="description">Stay energized with vibrant animations and real-time battery updates. Monitor your battery’s health and charging progress while enjoying engaging visuals. Chargify makes power management both informative and entertaining!</string>
+    <string name="dynamic_charging_visuals">Dynamic Charging Visuals</string>
+    <string name="dynamic_charging_visuals_description">Experience real-time charging progress with vibrant animations that bring your battery to life. Watch as your device powers up in style!</string>
+    <string name="real_time_battery_insights">Real-Time Battery Insights</string>
+    <string name="real_time_battery_insights_description">Get instant updates on your battery health, status, and performance. Stay informed with live insights at your fingertips.</string>
+    <string name="start_animation">Start Animation</string>
+    <string name="battery_info">Battery info</string>
+    <string name="battery_information">Battery Information</string>
+    <string name="battery_health">Battery Health:</string>
+    <string name="good">Good</string>
+    <string name="status">Status:</string>
+    <string name="level">Level:</string>
+    <string name="charging_type">Charging Type:</string>
+    <string name="none">None</string>
+    <string name="voltage">Voltage:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="technology">Technology:</string>
+    <string name="li_poly">Li-poly</string>
+    <string name="discharging">DISCHARGING</string>
+    <string name="_00_00">00:00</string>
+    <string name="apply">Apply</string>
+    <string name="double_tap_to_close">Double tap to close!</string>
+
+
+</resources>
